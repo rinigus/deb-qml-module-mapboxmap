@@ -1,0 +1,16 @@
+Source: qml-module-mapboxmap
+Section: libs
+Priority: optional
+Maintainer: Rinigus <rinigus.git@gmail.com>
+Build-Depends: debhelper (>= 10), qmapboxgl-dev, qt5-qmake, qtbase5-dev, qtdeclarative5-dev, qtlocation5-dev, qtpositioning5-dev, libcurl4-openssl-dev, libssl-dev
+Standards-Version: 4.1.2
+Homepage: https://github.com/rinigus/mapbox-gl-qml
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/qml-module-mapboxmap.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/qml-module-mapboxmap.git
+
+Package: qml-module-mapboxmap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Unofficial Mapbox GL Native bindings for Qt QML
+ These bindings allow to use Mapbox GL Native library directly,
+ without QtLocation plugin interface
