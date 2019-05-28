@@ -12,5 +12,5 @@ Package: qml-module-mapboxmap
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Unofficial Mapbox GL Native bindings for Qt QML
- These bindings allow to use Mapbox GL Native library directly,
+ These bindings allow one to use Mapbox GL Native library directly,
  without QtLocation plugin interface
